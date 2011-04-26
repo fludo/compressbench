@@ -28,7 +28,7 @@ BOOST_AUTO_TEST_SUITE(BWTSuite)
 
 
 
-BOOST_AUTO_TEST_CASE(testBWT) {
+/*BOOST_AUTO_TEST_CASE(testBWT) {
     std::string* input1;
     input1 = new std::string("missi.txt");
     BWTOld* coder1 = new BWTOld(input1,NULL,0);
@@ -63,6 +63,7 @@ BOOST_AUTO_TEST_CASE(testBWT) {
 
 
 }
+*/
 /*
 BOOST_AUTO_TEST_CASE(testBWTPaper) {
     std::string* input2;
