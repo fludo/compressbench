@@ -1,0 +1,33 @@
+/*
+    IEncoder interface: encoder interface (aren't usually able to compress file by themselves)
+    Copyright (C) 2010  Ludovic Favre <ludovic.favre@epfl.ch>
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+*/
+
+#ifndef _IENCODER_H
+#define	_IENCODER_H
+
+class IEncoder {
+public:
+    virtual ~IEncoder() {
+    }
+    virtual void encode(const std::string* outfile) = 0;
+    virtual void decode(const std::string* output) = 0;
+};
+
+
+#endif	/* _IENCODER_H */
+
