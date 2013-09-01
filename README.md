@@ -15,3 +15,5 @@ make
 What is not working:
 ===================
 	*src/test/TestbinaryIO : the test has not been updated for changed in the codec... this will require some check
+
+Benchmark script is not working for the moment (missing files)
