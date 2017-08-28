@@ -32,6 +32,7 @@
 #include "codeschemes/HuffMtfRleBwt.hpp"
 #include "codeschemes/HuffRleMtfBwt.hpp"
 #include "defines.hpp"
+#include <unistd.h>
 #include <getopt.h> //required for option parsing
 #define VERSION "1.4"
 //Usage : see -h option
